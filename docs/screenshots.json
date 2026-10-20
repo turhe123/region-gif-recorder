@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar menu, with Record Region on the ⌃⇧G hotkey, Stop, recent recordings, Settings and Support / Donate.","alt":"RegionGifRecorder menu bar menu"},
+  {"file":"02-settings.png","caption":"Settings for the record hotkey, frame rate, max width and duration, loop count, countdown, cursor, save folder and launch at login, with a live estimate of the largest possible GIF size.","alt":"RegionGifRecorder Settings window"}
+]

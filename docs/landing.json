@@ -1,0 +1,60 @@
+{
+  "seo_title": "Region GIF recorder for macOS",
+  "seo_description": "Free, open-source macOS menu bar app that records any screen region to a small looping GIF with one hotkey. Native Swift, no network calls, MIT licensed.",
+  "hero_title_line1": "Drag a region.",
+  "hero_title_accent": "Get a GIF.",
+  "hero_sub": "Press ⌃⇧G, drag over any part of your screen, and press it again to stop. RegionGifRecorder saves a looping GIF to your folder and copies it to the clipboard.",
+  "features_title": "Everything a quick GIF needs.",
+  "features_sub": "A small menu bar app that covers the full path from hotkey to a shareable file, with limits that keep the output small.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "One global hotkey",
+      "desc": "Start region selection from any app with ⌃⇧G, or rebind it in Settings. Press it again, or click the menu bar item, to stop."
+    },
+    {
+      "icon": "display",
+      "title": "Precise region selection",
+      "desc": "A dimmed overlay with a crosshair shows the live pixel size as you drag. Press Esc to cancel; selections under 20 px are discarded."
+    },
+    {
+      "icon": "clock",
+      "title": "Live menu bar timer",
+      "desc": "The icon becomes a red dot with elapsed time while recording, and a red outline marks the region without appearing in the GIF. An optional 3-second countdown is available."
+    },
+    {
+      "icon": "sliders",
+      "title": "Control over GIF size",
+      "desc": "Choose 10, 15 or 20 fps, a max width, a max duration of 3 to 30 seconds, cursor on or off, and a loop count. Settings show an estimate of the largest possible file."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Saved, copied, and listed",
+      "desc": "Each GIF gets a timestamped name in your chosen folder and is copied to the clipboard as a file. A notification offers Reveal in Finder, and the last ten recordings stay in the menu."
+    },
+    {
+      "icon": "cpu",
+      "title": "Bounded memory use",
+      "desc": "Frames are written to disk as JPEGs and assembled on stop, and frames are skipped if the encoder falls behind. Frame delays come from capture timestamps."
+    }
+  ],
+  "permissions_step": "Open System Settings › Privacy & Security › Screen Recording, enable RegionGifRecorder, then quit and reopen the app; notifications are optional.",
+  "faq": [
+    {
+      "q": "Is RegionGifRecorder really free and open source?",
+      "a": "Yes. It is released under the MIT license, and the full source is on GitHub. There is no paid tier, and the optional Support button simply opens a Ko-fi page."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Screen Recording is required, because ScreenCaptureKit uses it to capture your selected region. Notifications are optional and only used to tell you when a GIF is saved. It needs no Accessibility or Microphone access, and it records video only."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "GIFs are saved in the folder you choose in Settings, which is the Desktop by default. Your preferences are kept in the app's local settings on your Mac, and the app makes no network calls and has no analytics."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # RegionGifRecorder
 
+**🌐 Website:** [turhe123.github.io/region-gif-recorder](https://turhe123.github.io/region-gif-recorder/)
+
 Drag a region, record the screen, and save a small looping GIF with one hotkey and a live menu bar timer.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,13 @@ RegionGifRecorder is a free, open-source, 100% native, backend-free alternative 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="RegionGifRecorder menu bar menu" width="720"></p>
+
+<p align="center"><em>The menu bar menu, with Record Region on the ⌃⇧G hotkey, Stop, recent recordings, Settings and Support / Donate.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="RegionGifRecorder Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the record hotkey, frame rate, max width and duration, loop count, countdown, cursor, save folder and launch at login, with a live estimate of the largest possible GIF size.</em></p>
 
 ## Install
 
